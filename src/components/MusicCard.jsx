@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { addSong } from '../services/favoriteSongsAPI';
+import { addSong, getFavoriteSongs } from '../services/favoriteSongsAPI';
 import Loading from './Loading';
 
 export default class MusicCard extends Component {
@@ -33,6 +33,8 @@ export default class MusicCard extends Component {
 
     const { prevCheck } = this.state;
     console.log(prevCheck);
+
+    getFavoriteSongs();
   }
 
   render() {

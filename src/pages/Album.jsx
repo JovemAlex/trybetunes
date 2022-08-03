@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import getMusics from '../services/musicsAPI';
 import Loading from '../components/Loading';
 import MusicCard from '../components/MusicCard';
+// import { getFavoriteSongs } from '../services/favoriteSongsAPI';
 
 export default class Album extends Component {
   constructor() {
@@ -11,6 +12,7 @@ export default class Album extends Component {
     this.state = {
       response: [],
       loading: false,
+      // favMusic: '',
     };
   }
 
@@ -18,6 +20,7 @@ export default class Album extends Component {
     const { match: { params: { id } } } = this.props;
     // console.log(id);
     const response = await getMusics(id);
+    // const favMusic = await getFavoriteSongs();
     console.log(response);
     this.setState({ response });
   }
