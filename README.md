@@ -1,5 +1,5 @@
 <h1>Trybetunes 🎵🎶</h1>
-<p><em>Projeto desenvolvido com os conhecimentos adquirido no módulo de Fundamentos da <a href="https://www.betrybe.com/" alt="Site da Trybe">Trybe!</a></em></p>
+<p><em>Projeto desenvolvido com os conhecimentos adquirido no módulo de Front-End da <a href="https://www.betrybe.com/" alt="Site da Trybe">Trybe!</a></em></p>
 
 <h3>Objetivo:</h3>
 <p>Neste projeto o objetivo é criar o TrybeTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada. Essa aplicação será capaz de:</p>
